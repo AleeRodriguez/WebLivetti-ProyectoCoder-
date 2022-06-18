@@ -19,13 +19,17 @@
 }
 /**/
 .colornav{
-    background: linear-gradient(180deg, rgba(9,17,121,1) 35%, rgba(0,212,255,1) 100%) !important;
+    background: linear-gradient(180deg, rgba(9,17,121,1) 15%, rgba(0,212,255,1) 100%) !important;
 }
 .nav-item{
     border: 2px solid;
     border-radius: 5px;
     margin: 3px;
-
+    font-family: Arial;
+    font-weight: bold;
+}
+.nav-item{
+    color: white;
 }
 .nav-item:hover{
         transform: translateY(2px);
@@ -33,6 +37,7 @@
         transform: scale(1.2);
         transition: all;
         transition-duration: 2s;
+        color: white;
 }
 @media(max-width:425px){
     .navbar{
@@ -233,5 +238,5 @@ p {
     display: none;
    }
    .carousel-indicators{
-    display: none;
+    display: none;}
 }
