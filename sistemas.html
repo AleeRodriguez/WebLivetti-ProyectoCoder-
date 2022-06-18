@@ -12,7 +12,7 @@
     <title>Ingenieria y desarrollo</title>
 </head>
 
-<body>
+<body class="bodymedia">
     <header>
         <nav class="navbar navbar-expand-lg bg-info colornav">
             <div class="container-fluid">
@@ -51,6 +51,29 @@
         </nav>
     </header>
     <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/Sistemas-hidraulicos.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/Sistemas-neumaticos.jpg" class="d-block w-100" alt="...">
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
@@ -104,7 +127,7 @@
                         energía hidráulica en mecánica. Los actuadores realizan la función opuesta a la de las bombas.
                         El depósito, la bomba, las válvulas de control y los actuado-res son dispositivos mecánicos.
                     </div>
-                    <div>Ejemplo<img src="./imagenes/sistemahidraulico.jpg" alt=""></div>
+                    <div class="hidraulica">Ejemplo<img src="./imagenes/sistemahidraulico.jpg" alt=""></div>
                 </div>
             </div>
         </div>

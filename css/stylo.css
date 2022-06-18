@@ -34,6 +34,21 @@
         transition: all;
         transition-duration: 2s;
 }
+@media(max-width:425px){
+    .navbar{
+        width: 100%;
+    }
+    .navbar-toggle{
+    width: 100%;}       
+    .navbar-collapse{
+        width: 100%;
+    }
+    .bodymedia{
+        width: 100%;
+    }
+}
+
+
 /*Index*/
 .mainIndex {
     background-image: url(../imagenes/fondoindex.png);
@@ -179,3 +194,44 @@ p {
 
 
 /*Sistemas Pagina*/
+.accordion-item{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-header{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+.accordion-flush{
+    background-color: gray;
+}
+.accordion-header:hover{
+    transform: translateY(2px);
+        box-shadow: 2px 0;
+        transform: scale(1.2);
+        transition: all;
+        transition-duration: 2s;
+}
+
+@media(max-width: 576px){
+    .Neumatica{
+        display: none;
+    }
+    .hidraulica{
+        display: none;
+   }
+   .carousel-inner{
+    display: none;
+   }
+   .carousel-control-prev{
+    display: none;
+   }
+   .carousel-control-next{
+    display: none;
+   }
+   .carousel-indicators{
+    display: none;
+}
