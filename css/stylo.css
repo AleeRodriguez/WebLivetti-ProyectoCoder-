@@ -37,7 +37,14 @@
         transform: scale(1.2);
         transition: all;
         transition-duration: 2s;
-        color: white;
+        color: white;}
+        .d-flex{
+            align-items: center;
+            
+        }
+        .btn-outline-success{
+            background-color: gray;
+            color: white;
 }
 @media(max-width:425px){
     .navbar{
